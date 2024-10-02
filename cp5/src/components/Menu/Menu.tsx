@@ -8,11 +8,11 @@ export default function Menu() {
             discute catástrofes cósmicas envolvendo colisões de planetas no nosso sistema solar.
         </p>
         <nav>
-          <ul className="lista-menu">
-            <li><Link href="/velikovsky-idea1.tsx">Velikovsky Ideia 1</Link></li>
-            <li><Link href="/velikovsky-idea2.tsx">Velikovsky Ideia 2</Link></li>
-            <li><Link href="/velikovsky-idea3.tsx">Velikovsky Ideia 3</Link></li>
-            <li><Link href="/calculation.tsx">Cálculo de Velikovsky</Link></li>
+          <ul>
+            <li><Link href="/veli1">Velikovsky Ideia 1</Link></li>
+            <li><Link href="/velikovsky-idea2">Velikovsky Ideia 2</Link></li>
+            <li><Link href="/velikovsky-idea3">Velikovsky Ideia 3</Link></li>
+            <li><Link href="/calculation">Cálculo de Velikovsky</Link></li>
           </ul>
         </nav>
       </div>
