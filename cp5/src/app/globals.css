@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif; /* Definindo a fonte para a página */
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    color: #1e3a8a; /* Cor do texto */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 36px; /* Tamanho da fonte */
+    margin-top: 50px; /* Espaço acima do título */
+  }
+  
+ 
+  p {
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    font-size: 18px; /* Tamanho da fonte */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    max-width: 800px; /* Largura máxima do texto */
+    margin: 20px auto; /* Centraliza horizontalmente */
+  }
+  
+  
+  button {
+    background-color: #9333ea; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Mudar o cursor ao passar o mouse */
+    display: block;
+    margin: 20px auto; /* Centralizar botão */
+  }
+  
+  button:hover {
+    background-color: #7b2bc3; /* Mudar cor ao passar o mouse */
+  }
+  .lista-menu{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+  }
+  footer{
+    background-color: #00040e;
+    
+  }
