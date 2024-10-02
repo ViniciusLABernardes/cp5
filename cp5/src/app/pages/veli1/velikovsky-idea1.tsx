@@ -29,9 +29,11 @@ export default function VelikovskyIdea1() {
 
     return (
         <div>
+            <main>
             <h1>{firstItem.title}</h1>
             <img src={firstItem.url} alt={firstItem.title} />
             <p>{firstItem.explanation}</p>
+            </main>
         </div>
     );
 }
