@@ -4,7 +4,7 @@ export default function Menu() {
     return (
       <div >
         <h1 className="text-blue-800 text-center text-4xl mt-12">Worlds in Collision - Immanuel Velikovsky</h1>
-        <p className="text-gray-800 text-center text-lg leading-relaxed max-w-2xl mx-auto my-5">Worlds in Collision é um livro escrito por Immanuel Velikovsky que 
+        <p className="text-gray-800 text-center text-lg leading-relaxed max-w-2xl mx-auto my-4">Worlds in Collision é um livro escrito por Immanuel Velikovsky que 
             discute catástrofes cósmicas envolvendo colisões de planetas no nosso sistema solar.
         </p>
         <nav>
