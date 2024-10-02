@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body>
+      <body className="bg-gray-100 font-sans m-0 p-0">
        <Cabecalho/>
         {children}
         <Rodape/>
