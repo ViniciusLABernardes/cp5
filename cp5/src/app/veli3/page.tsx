@@ -27,10 +27,12 @@ export default function VelikovskyIdea2() {
     }
 
     return (
-        <div className="flex gap-8 justify-center items-center text-lg h-30">
-            <h1>{firstItem.title}</h1>
-            <img src={firstItem.url} alt={firstItem.title} />
-            <p>{firstItem.explanation}</p>
+        <div className="flex flex-col gap-8 justify-center items-center text-lg h-30">
+            <main className="flex flex-col justify-center items-center h-[80vh] ">
+                <h1>{firstItem.title}</h1>
+                <img src={firstItem.url} alt={firstItem.title} height={400} width={400}/>
+                <p className='mb-60 '>{firstItem.explanation}</p>
+            </main>
         </div>
     );
 }

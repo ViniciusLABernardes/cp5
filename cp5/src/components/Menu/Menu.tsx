@@ -8,7 +8,7 @@ export default function Menu() {
             discute catástrofes cósmicas envolvendo colisões de planetas no nosso sistema solar.
         </p>
         <nav>
-          <ul className="lista-menu">
+          <ul className="flex gap-8 justify-center items-center text-lg h-[30vh]">
             <li><Link href="/veli1">Velikovsky Ideia 1</Link></li>
             <li><Link href="/veli2">Velikovsky Ideia 2</Link></li>
             <li><Link href="/veli3">Velikovsky Ideia 3</Link></li>
